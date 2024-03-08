@@ -29,7 +29,7 @@ aside {
 
 }
 aside img {
-    width: 100%;
+    width: 200px;
     height: auto;
     border-radius: 5px;
     padding: 2px;
@@ -37,7 +37,7 @@ aside img {
 }
 main img {
     border-radius: 5px;
-    width: 50%;
+    width: 150;
     height: auto;
     border: 1px solid rgb(222, 184, 12);
     padding: 2px;
