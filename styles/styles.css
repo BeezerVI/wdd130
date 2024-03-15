@@ -21,7 +21,7 @@ p {
     padding: 10px;
 }
 main {
-    max-width: 840px;
+    max-width: 1200px;
 }
 aside {
     width: 20rem;
@@ -31,7 +31,7 @@ aside {
     background-color: #c6e1c1;
     color: #333;
     text-align: center;
-
+    position: relative;
 }
 aside img {
     width: 200px;
