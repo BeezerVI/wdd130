@@ -1,12 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    background-color:rgb(222, 184, 12);
+    background-color: rgb(222, 184, 12);
     padding: 10px;
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
-    display: block;
 }
 h1 {
     color: rgb(222, 184, 12);
@@ -37,15 +42,31 @@ aside img {
 }
 main img {
     border-radius: 5px;
-    width: 150;
+    width: 150px; /* Added unit */
     height: auto;
-    border: 1px solid rgb(222, 184, 12);
+    border: 1px solid rgb(39, 36, 0);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p { padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000000;
+    text-align: center;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #c6e1c1;
+    color: #333;
     text-align: center;
 }
