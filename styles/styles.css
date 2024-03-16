@@ -7,11 +7,15 @@
 nav {
     background-color: rgb(222, 184, 12);
     padding: 10px;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow wrapping of navigation items if necessary */
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-align: center;
+    margin: 0 10px;
 }
 h1 {
     color: rgb(222, 184, 12);
@@ -59,6 +63,10 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+}
+
+header {
+    justify-content: center; /* Center items horizontally */
 }
 
 /* Class Selectors */
