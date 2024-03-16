@@ -42,18 +42,41 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+.hero {
+    position: relative;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center it precisely */
+}
+
+article {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%); /* I have no diea what this dose but it helped me */
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the color and opacity as needed */
+    padding: 20px; /* Add padding for better readability */
+}
+
+article p {
+    float: left; /* Float the paragraph to the left */
+    width: 60%; /* Adjust the width as needed */
+}
+
+article img {
+    float: right; /* Float the image to the right */
+    width: 40%; /* Adjust the width as needed */
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-}
-
-/* article {
-    position: absolute;
-} */
-
-h1{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    position: absolute;
 }
