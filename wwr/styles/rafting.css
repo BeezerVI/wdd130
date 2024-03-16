@@ -48,17 +48,12 @@ nav a:hover {
     height: auto;
 }
 
-article {
+/* article {
     position: absolute;
-}
+} */
 
 h1{
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
 }
-
-p {
-    padding: 25px;
-}
-
