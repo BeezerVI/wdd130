@@ -70,13 +70,14 @@ article p {
     width: 60%; /* Adjust the width as needed */
 }
 
-article img {
+div article img {
     float: right; /* Float the image to the right */
-    width: 40%; /* Adjust the width as needed */
+    width: 30%;
 }
-
-.hero img {
-    display: block;
+div img {
     width: 100%;
     height: auto;
+}
+.hero img {
+    display: block;
 }
