@@ -22,9 +22,20 @@ body {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    margin: 1.25rem auto; /* the space bettwen header and main */
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border: 1px solid #000000;
 }
 
-nav{
+.logo img {
+    margin: 0 0.25rem 0 0rem;
+    width: 100px;
+    height: auto;
+}
+
+nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
@@ -55,6 +66,25 @@ h1 {
     transform: translate(-50%, -50%); /* Center it precisely */
 }
 
+.history {
+    margin: 1.25rem auto;
+    display: inline-block; /* or inline-flex */
+    background-color: var(--accent1-color);
+    border: 1px solid #000000;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    height: auto; /* Allow the height to adjust based on content */
+    text-align: center;
+}
+
+.adventure {
+    display: inline-block; /* or inline-flex */
+    background-color: var(--accent1-color);
+    border: 1px solid #000000;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    height: auto; /* Allow the height to adjust based on content */
+    text-align: center;
+}
+
 article {
     position: absolute;
     top: 70px;
@@ -72,7 +102,7 @@ article p {
 
 div article img {
     float: right; /* Float the image to the right */
-    width: 40%;
+    width: 39%;
 }
 div img {
     width: 100%;
@@ -80,4 +110,24 @@ div img {
 }
 .hero img {
     display: block;
+    border: 1px solid #000000;
+}
+
+figure img {
+    width: 100%;
+    }
+
+    /* makes social img links slightly smaller when shrinking the screan */
+footer {
+    margin-top: 1.25rem;
+}
+
+.social-icons {
+    display: flex;
+}
+
+/* Adjust individual icon size */
+.social-icons img {
+    width: 50px;
+    height: auto;
 }
