@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* form {
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border-radius: 0.5rem; */
+    /* background-color: aquamarine;
+    display: grid;
+} */
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Single column layout */
+}
+/* Add font(s) of your choice */
+body {
+    font-family: 'Roboto', serif;
+}
+
+/* Style the header and h1 */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style all the form elements */
+label, input, button, select, textarea {
+    font-family: 'Roboto', serif; /* Different font family */
+    margin-bottom: 10px; /* Spacing between elements */
+}
+
+/* Style the input, select, and textarea elements */
+input, select, textarea {
+    padding: 8px;
+    font-size: 16px; /* Larger font size */
+}
+
+/* Style the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style button hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* found this on the internet it was very usefull */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+}
