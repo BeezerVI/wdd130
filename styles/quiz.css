@@ -24,32 +24,30 @@ form {
     border-radius: 10px;
     background-color: #f9f9f9;
     display: flex;
-    flex-direction: column; /* Single column layout */
+    flex-direction: column; 
 }
-/* Add font(s) of your choice */
+
 body {
     font-family: 'Roboto', serif;
 }
 
-/* Style the header and h1 */
+
 header {
     text-align: center;
     padding: 20px;
 }
 
-/* Style all the form elements */
+
 label, input, button, select, textarea {
-    font-family: 'Roboto', serif; /* Different font family */
-    margin-bottom: 10px; /* Spacing between elements */
+    font-family: 'Roboto', serif; 
+    margin-bottom: 10px;
 }
 
-/* Style the input, select, and textarea elements */
 input, select, textarea {
     padding: 8px;
-    font-size: 16px; /* Larger font size */
+    font-size: 16px; 
 }
 
-/* Style the button */
 button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -59,7 +57,7 @@ button {
     cursor: pointer;
 }
 
-/* Style button hover */
+/* style button hover */
 button:hover {
     background-color: #0056b3;
 }
