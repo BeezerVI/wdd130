@@ -67,16 +67,13 @@ h1 {
 }
 
 .history {
+    margin: 1.25rem auto;
     display: inline-block;
     background-color: var(--accent1-color);
     border: 1px solid #000000;
     box-sizing: border-box;
-    height: auto;
+    height: auto; 
     text-align: center;
-
-    /* Center horizontally */
-    margin-left: 50%;
-    transform: translateX(-50%);
 }
 
 .adventure {
