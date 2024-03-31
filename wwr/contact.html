@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contacts | Hyrum McKay</title>
+    <meta name="description" content="This is our contact website">
+    <meta name="author" content="Hyrum McKay, contacts hyrummckay@gmail.com">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Rafting Site Logo">
+        </div>
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+    </header>
+    <main>
+        <div class="history">
+            <h1>Contact information</h1>
+            <h2>Send us a message</h2>
+
+            <p>White Water Rafting</p>
+            <p>Phone: 555-555-555</p>
+            <p>Email: example@gmail.com</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d557.2226987724605!2d168.25368455582915!3d-17.683942117590686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sca!4v1711838661543!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <form id="quizForm" action="submit_quiz.php" method="post" class="user_email">
+            <div>
+                <label for="q1">Name:</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div>
+                <label for="q2">Email:</label>
+                <input type="text" id="q2" name="q2">
+            </div>
+            <div>
+                <label for="q3">Select an option:</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Options</option>
+                    <option value="option1">General Inquiry</option>
+                    <option value="option2">Reservation Question</option>
+                    <option value="option3">Website Suggestion</option>
+                </select>
+            </div>
+            <div>
+                <label for="q4">Your Message:</label>
+                <textarea id="q4" name="q4"></textarea>
+            </div>
+        
+            <div>
+                <label for="q5">Please subscribe me to the monthly newsletter:</label>
+                <input type="checkbox" id="q5" name="q5">
+            </div>
+        
+            <div>
+                <p>Optional</p>
+                <label for="q6">Phone number:</label>
+                <input type="number" id="q6" name="q6">
+            </div>
+        
+            <button type="submit">Submit</button>
+        </form>
+
+        <div style="display: flex;" class="adventure">
+            <figure>
+                <img src="images/happy_happy_costomer.jpg" alt="Happy costomer">
+                <figcaption>Trustfull person, becuse of ther thumbs up</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy_happy_happy.jpg" alt="Happy costomer">
+                <figcaption>A random guy you can trust becuse of his thumbs</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy_rafting.png" alt="Happy costomer">
+                <figcaption>Very happy people about to fall off a water fall</figcaption>
+            </figure>
+            <figure>
+                <img src="images/fake_happy_costumer.png" alt="Happy costomer">
+                <figcaption>That one girl youve seen before becuse ive ran out of photos</figcaption>
+            </figure>
+        </div>
+
+
+    </main>
+    <footer>
+        <nav class="sociallinks">
+            <p>©️2024, 😎 Rafting Company! Company! 😎 Hyrum McKay 😎 Canada, Alberta</p>
+            <div class="social-icons">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.webp" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.webp" alt="twitter">
+                </a>
+                <a href="https://discord.com">
+                    <img src="images/discord.webp" alt="Discord">
+                </a>
+            </div>
+        </nav>
+    </footer>        
+</body>
+</html>
