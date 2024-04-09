@@ -22,19 +22,27 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/hero_rafting.jpg" alt="Rafting Site Logo">
-            <h1 class="header">Rafting Company! Company!</h1>
-            <article>
-                <img src="images/fake_happy_costumer.png" alt="Real Happey Costumer">
-                <p>Welcome to Rafting Company! Company!, where we chase rainbows with unicorns, ride the waves of dreams, and sprinkle pixie dust on every splash! Our mission? To turn ordinary rocks into gold nuggets of laughter, forging bonds stronger than titanium, as we navigate the cosmic currents of life's grand river. So grab your paddle, hold onto your hats, and let's dance with the river nymphs while we make memories that taste like cotton candy and sunshine.</p>
-                <p>Written by ChatGPT, your friendly neighborhood AI, because we are a legit company.</p>
-            </article>
+            <div class="image-container">
+                <img src="images/hero_rafting.jpg" alt="Rafting Site Logo">
+
+                <a href="contact.html" class="contact-button">Contact Us!</a>
+            </div>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>In the whimsical world of Rafting Company! Company!, the journey began with the innovative spark of AI. Imagine a serene river winding through the charming town of Adventureville. From its inception, Rafting Company! Company! has been dedicated to providing exhilarating rafting experiences with a dash of humor. With each paddle stroke, we've carved our way through the waters of success, always guided by the belief that adventure is best enjoyed with a sprinkle of laughter.</p>
-            <p>VERY professional, AND ligit.</p>
-        </section>
+        
+        <form id="quizForm" action="submit_quiz.php" method="post" class="user_email">
+            <h2>Newsletter</h1>
+            <div>
+                <label for="q1">Name:</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div>
+                <label for="q2">Email:</label>
+                <input type="text" id="q2" name="q2">
+            </div>
+    
+            <button type="submit">Submit</button>
+        </form>
+
         <section class="adventure">
             <h2>Adventure Awaits You! IF THIS WAS REAL!</h2>
             <div style="display: flex;">
