@@ -57,7 +57,7 @@ nav a:hover {
     position: relative;
 }
 
-.header h1 {
+.header {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
